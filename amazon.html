@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="mom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="background-color: gainsboro;">
+    <nav class="header">
+        <h1 style="color: white;padding-left: 40px;" id="usa">amazon.in</h1>
+        <p style="color: white;padding-left: 50px;" id="m1">Delivering Karaikal 609602<svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path
+                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+            </svg>Update Location</p>
+            <div class="dropdown" id="mango">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" style="height: 50px;">All</button>
+            <ul class="dropdown-menu" id="mobile">
+      <li><a class="dropdown-item" href="#">All Categories</a></li>
+      <li><a class="dropdown-item" href="#">Alexa Skills</a></li>
+      <li><a class="dropdown-item" href="#">Amazon Devices</a></li>
+      <li><a class="dropdown-item" href="#">Amazon Fashion</a></li>
+      <li><a class="dropdown-item" href="#">Amazon Fresh</a></li>
+      <li><a class="dropdown-item" href="#">Amazon Fresh Meat</a></li>
+      <li><a class="dropdown-item" href="#">Amazon Pharmacy</a></li>
+      <li><a class="dropdown-item" href="#">Appliance</a></li>
+      <li><a class="dropdown-item" href="#">Apps & Games</a></li>
+      <li><a class="dropdown-item" href="#">Audible Aduiobooks</a></li>
+      <li><a class="dropdown-item" href="#">Baby</a></li>
+      <li><a class="dropdown-item" href="#">Beauty</a></li>
+      <li><a class="dropdown-item" href="#">Books</a></li>
+      <li><a class="dropdown-item" href="#">Car & Motorbike</a></li>
+      <li><a class="dropdown-item" href="#">Clothing & Accessories</a></li>
+      <li><a class="dropdown-item" href="#">collectibles</a></li>
+      <li><a class="dropdown-item" href="#">Computers & Accessories</a></li>
+      <li><a class="dropdown-item" href="#">Deals</a></li>
+      <li><a class="dropdown-item" href="#">Electronics</a></li>
+      <li><a class="dropdown-item" href="#">Furniture</a></li>
+            </ul>
+            </div>
+            <form id="popular">
+                <label for="text"></label>
+           <input type="text" placeholder="Search Amazon.in" style="padding-top: 10px;border: none;padding-left: 80px;padding-bottom: 15px;">
+           </form>
+           <button type="button" id="mouse">
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg></button>
+          <div class="dropdown" id="india">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+        <h6 style="color: white;" >
+            <img src="https://media.istockphoto.com/id/519611160/vector/flag-of-india.jpg?s=612x612&w=0&k=20&c=0HueaQHkdGC4Fw87s3DbeTE9Orv3mqHRLce88LV47E4=" width="30" height="20px">
+            EN</h6>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Change Language</a></li> 
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-record-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+</svg>English-EN</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-record-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+</svg>Tamil-TA</a></li>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-record-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+</svg>Hindi-II</a></li>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-record-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+</svg>Knadam-KN</a></li>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-record-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+</svg>Thelugu-TE</a></li>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-record-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+</svg>Malayalam-ML</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#"><img src="https://media.istockphoto.com/id/519611160/vector/flag-of-india.jpg?s=612x612&w=0&k=20&c=0HueaQHkdGC4Fw87s3DbeTE9Orv3mqHRLce88LV47E4=" width="30px" height="20px">Your are shopping on amazon.in</a></li>
+                <li><a class="dropdown-item" href="#" style="color: blue;padding-left: 45px;">Change country/region</a></li>
+            </ul>
+            </div>
+        <p style="padding-left: 40px;color:white ;padding-top: 5px;" id="m2"><small>Hello,Sign in<br>Account&Lists</small></p>
+        <p style="margin-left: 60px;color: white;" id="m3"><small>Returns<br>&Orders</small></p>
+        <p style="color: white;margin-right: 20px;padding-left: 10px;" id="m4">
+            <img src="cart2.png" width="150px" height="100px" style="padding-left: 50px;">
+           <small style="padding-top: 40px;padding-right: 20px;"><b> Cart</b></small></p>
+    </nav>
+    <div class="kow">
+        <p >All</p>
+        <p>MX player</p>
+        <p>Sell</p>
+        <p class="day">Bestsellers</p>
+        <p class="a1">Today's Deals</p>
+        <p class="a2">Mobiles</p>
+        <p class="a3">New Releases</p>
+        <p class="a4">Electronics</p>
+        <p class="a5">Customer Service</p>
+        <p class="a6">Home&Kitchen</p>
+        <p class="a7">Prime</p>
+        <p class="a8">Fashion</p>
+        <p class="a9">Amazon Pay</p>
+        <p class="a10">Books</p>
+        <p class="a11">Computers</p>
+    </div>
+    <div id="#kong" class="carousel-slide" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#kong" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#kong" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#kong" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#kong" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#kong" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#kong" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#kong" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#kong" data-bs-slide-to="7"></button>
+        </div>
+        <div class="carousel-inner" style="padding-right: 500px;">
+            <div class="carousel-item active">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/UBSnov25/XGL_unrec_2._CB780071213_.png"
+                    alt="b1" class="d-block">
+            </div>
+            <div class="carousel-item active">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/GW/Nov/UBS/updated/1577881485._CB780130839_.png"
+                    alt="b2" class="d-block">
+            </div>
+            <div class="carousel-item active">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/BISS_2024/2025/Nov/GW/ATF/PC/3000x1200_1._CB779756743_.jpg"
+                    alt="b3" class="d-block">
+            </div>
+            <div class="carousel-item active">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/2025/GW/UBS/Unrec/Nov/PC/Elegant_kurtas_3000x1200._CB780129501_.jpg"
+                    alt="b4" class="d-block">
+            </div>
+            <div class="carousel-item active">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Unrec/TallHero_3000X1200_Unrec._CB593464763_.jpg"
+                    alt="b5" class="d-block">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#kong" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#kong" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="monkey">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="p1">
+                            <h4 style="padding-left: 10px;padding-top: 10px;"> Revamp your home in style</h4>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_furnishings_2._SY116_CB555624324_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_decor_1._SY116_CB555624324_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_storage_1._SY116_CB555624324_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_lighting_2._SY116_CB555624324_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <p style="color: blue;padding-top: 40px;padding-left: 30px;" id="j1">Explor all</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="p2">
+                            <h4 style="padding-left: 10px;padding-top: 10px;">Appliances for your home | Up to 55% off
+                            </h4>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <p style="color: blue;padding-left: 10px;padding-top: 10px;" id="j2">See More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div>
+                            <h4 style="padding-left: 10px;padding-top: 10px;">Starting ₹149 | Headphones</h4>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <p style="color: blue;padding-left: 10px;padding-top: 40px;" id="j3">See all offers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div>
+                            <h4 style="padding-left: 10px;padding-top: 10px;">Automotive essentials | Up to 60% off</h4>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                        </div>
+                        <div>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <p style="color: blue;padding-left: 10px;padding-top: 10px;" id="j4">See More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tool">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="g1">
+                            <h4 style="padding-left: 10px;padding-top: 10px;">Starting ₹199 | Amazon Brands & more</h4>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_2._SY116_CB567468236_.jpg" width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_3._SY116_CB567468236_.jpg" width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_4._SY116_CB567468236_.jpg" width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_1._SY116_CB567468236_.jpg" width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <p style="color: blue;padding-left: 7px;padding-top: 8px;" id="t1"><small>See more</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="g2">
+                            <h4 style="padding-left: 10px;padding-top: 10px;">Black Friday Curated Collections</h4>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/events/BFCM_Topical/PC_QC/BFCM24_GW_PC_QC_winter_1x._SY116_CB777651345_.jpg"  width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/events/BFCM_Topical/PC_QC/BFCM24_GW_PC_QC_gifting_1x._SY116_CB777651345_.jpg"  width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/events/BFCM_Topical/PC_QC/BFCM24_GW_PC_QC_travel_1x._SY116_CB777651345_.jpg"  width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/events/BFCM_Topical/PC_QC/BFCM24_GW_PC_QC_wedding_1x._SY116_CB777651345_.jpg"  width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <p style="color: blue;padding-left: 7px;padding-top: 8px;" id="t2"><small>See all offers</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="g3">
+                            <h4 style="padding-left: 10px;padding-top: 10px;">Bulk order discounts + Up to 18% GST savings</h4>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img25/nov/bau/ain/gw/Laptops_186_116_10._SY116_CB777673831_.jpg" width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img25/nov/bau/ain/gw/KitchenAppliances_186_116_10._SY116_CB777673831_.jpg" width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img25/nov/bau/ain/gw/OfficeChairs_186_116_10._SY116_CB777673831_.jpg" width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img25/nov/bau/ain/gw/TV_186_116_10._SY116_CB777675154_.jpg" width="150px" height="100px" style="padding-left: 10px;padding-top: 10px;">
+                            <p style="color: blue;padding-left: 7px;padding-top: 8px;" id="t3"><small>Create a frre account</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="g4">
+                            <h4 style="padding-left: 10px;padding-top: 10px;">Shop top deals</h4>
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img25/Nimesh/BFCM25_GW_PC_CC_For-you_1x._SY304_CB777777508_.jpg" height="230px" width="310px">
+                            <p style="color: blue;padding-left: 7px;padding-top: 8px;" id="t4"><small>See all offers</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Build">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card" style="padding-left: 35px;padding-top: 30px;padding-bottom: 30px;">
+                    <h4 id="t5">Up to 80% off | Latest collections from Indian artisans<small style="color: blue;"> See all offers</small></h4>
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/913irsXY8nL._AC_SY200_.jpg">
+                        <img src="https://m.media-amazon.com/images/I/81E2mcZDGkL._AC_SY200_.jpg">
+                        <img src="https://m.media-amazon.com/images/I/81BElxcnowL._AC_SY200_.jpg">
+                        <img src="https://m.media-amazon.com/images/I/71QjWSO08NL._AC_SY200_.jpg">
+                        <img src="https://m.media-amazon.com/images/I/71SPy22HSsL._AC_SY200_.jpg">
+                        <img src="https://m.media-amazon.com/images/I/71Q-vRhw2CL._AC_SY200_.jpg">
+                        <img src="https://m.media-amazon.com/images/I/519qu5jGUbL._AC_SY200_.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jk" >
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="card" style="padding-top: 20px;padding-bottom: 30px;">
+                        <h4>Starting ₹70,348 | From daily commutes to weekend thrills</h4>
+                        <div style="padding-top: 30px;">
+                            <img src="https://m.media-amazon.com/images/I/81Bdg2E1LFL._AC_SY200_.jpg" width="250px"
+                                height="150px" style="padding-left: 40px;">
+                            <img src="https://m.media-amazon.com/images/I/51MiMrI588L._AC_SY200_.jpg" width="250px"
+                                height="150px" style="padding-left: 40px;">
+                            <img src="https://m.media-amazon.com/images/I/71ycyTdZYLL._AC_SY200_.jpg" width="250px"
+                                height="150px" style="padding-left: 40px;">
+                            <img src="https://m.media-amazon.com/images/I/714PxpfG43L._AC_SY200_.jpg" width="250px"
+                                height="150px" style="padding-left: 40px;">
+                            <img src="https://m.media-amazon.com/images/I/619zWdlNnbL._AC_SY200_.jpg" width="250px"
+                                height="150px" style="padding-left: 40px;">
+                        </div>
+                </div>
+        </div>
+         </div>
+         </div>
+    
+      <div id="free">
+    <div class="container-fluid" style="padding-top: 20px;">
+        <div class="row">
+            <div class="card">
+                <div class="col-md-12" style="padding-left: 20px;padding-bottom: 20px;">
+                    <h4 style="padding-top: 30px;">Best Sellers in Clothing & Accessories</h4>
+                    <div style="padding-top: 30px;">
+                        <img src="https://m.media-amazon.com/images/I/71jA7cZEY-L._AC_SY200_.jpg">
+                        <img src="https://m.media-amazon.com/images/I/71I53evweVL._AC_SY200_.jpg"
+                            style="padding-left: 40px;">
+                        <img src="https://m.media-amazon.com/images/I/619xMvtqClL._AC_SY200_.jpg"
+                            style="padding-left: 40px;">
+                        <img src="https://m.media-amazon.com/images/I/61hz9cK6gnL._AC_SY200_.jpg"
+                            style="padding-left: 40px;">
+                        <img src="https://m.media-amazon.com/images/I/71DCFWHFolL._AC_SY200_.jpg"
+                            style="padding-left: 40px;">
+                        <img src="https://m.media-amazon.com/images/I/71ZxN4i3-oL._AC_SY200_.jpg"
+                            style="padding-left: 40px;">
+                        <img src="https://m.media-amazon.com/images/I/81biKixsaDL._AC_SY200_.jpg"
+                            style="padding-left: 40px;">
+                        <img src="https://m.media-amazon.com/images/I/51sSJUx8mwL._AC_SY200_.jpg"
+                            style="padding-left: 40px;">
+                        <img src="https://m.media-amazon.com/images/I/61y6vD+CXtL._AC_SY200_.jpg"
+                            style="padding-left: 40px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+      
+    <div id="hyper">
+    <div class="container-fluid" style="padding-top: 40px;">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div style="padding-top: 30px;padding-left: 20px;padding-bottom: 10px;">
+                        <h4>Best Sellers in Beauty</h4>
+                        <img src="https://m.media-amazon.com/images/I/71cseSChxxL._AC_SY170_.jpg" width="150px"
+                            height="100px">
+                        <img src="https://m.media-amazon.com/images/I/4125gF+XmHL._AC_SY170_.jpg" width="80px"
+                            height="200px" style="padding-left: 20px;">
+
+                        <img src="https://m.media-amazon.com/images/I/71t9JRry+3L._AC_SY170_.jpg" width="100px"
+                            height="150px">
+                        <img src="https://m.media-amazon.com/images/I/61+Z+I-brZL._AC_SY170_.jpg" width="150px"
+                            height="150px" style="padding-left: 50px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="padding-left: 25px;padding-top: 30px;padding-bottom: 10px;">
+                    <h4>Up to 50% off | International brands</h4>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/2025/WK_1/PC_CC_379X304_46._SY304_CB778301020_.jpg"
+                        width="300px">
+                    <p style="padding-top: 40px;color: blue;" class="d1">See all offers</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <h4 style="padding-left: 20px;padding-top: 30px;">Up to 70% off | Kitchen products from Emerging
+                        Busi…</h4>
+                    <img src="https://m.media-amazon.com/images/I/61Ve4h1RHxL._AC_SY195_.jpg" height="200px"
+                        width="250px" style="padding-left: 30%;">
+                    <p style="padding-left: 20px;padding-top: 20px;">Velmora Stainlesss Steel Oil Dispenser 1 Litre
+                        <br>Steel - Leakproof - Stainless Steel Oil Cont…₹390.00M.R.P:₹999.00
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="padding-left: 30px;padding-top: 20px;">
+                    <h4>Up to 75% off | Curated products from Small Busine…</h4>
+                    <img src="https://m.media-amazon.com/images/I/61EfP+mpkrL._AC_SY175_.jpg" height="200px"
+                        width="250px">
+                    <p>Rexzy® Cotton Saree Bags/Covers for Storage, Big Size Single (16 X 14 Inches) with Zip Closure
+                        for Cl…
+                        ₹496.00M.R.P:₹1,499.00</p>
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/61EfP+mpkrL._AC_SY55_.jpg"
+                            style="border: 2px solid rgba(0, 0, 255, 0.767);border-radius: 10%;">
+                        <img src="https://m.media-amazon.com/images/I/617G0rGPwzL._AC_SY55_.jpg"
+                            style="border: 2px solid;border-radius: 10%;margin-left: 5px;width: 100px;">
+                        <img src="https://m.media-amazon.com/images/I/51SB4L-6VeL._AC_SY55_.jpg"
+                            style="border: 2px solid;border-radius: 10%;margin-left: 5px;">
+                        <img src="https://m.media-amazon.com/images/I/61CwFjj6KBL._AC_SY55_.jpg"
+                            style="border: 2px solid;border-radius: 10%;margin-left: 5px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+     
+    <div id="command">
+    <div class="container-fluid" style="padding-top: 40px;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <p id="fanda">
+                        <img src="https://m.media-amazon.com/images/I/61Ve4h1RHxL._AC_SY200_.jpg">
+                        <img src="https://m.media-amazon.com/images/I/51hLT9m7W1L._AC_SY200_.jpg"
+                            style="padding-left: 20px;">
+                        <img src="https://m.media-amazon.com/images/I/71gnltFJWFL._AC_SY200_.jpg"
+                            style="padding-left: 20px;">
+                        <img src="https://m.media-amazon.com/images/I/61X78DA-dGL._AC_SY200_.jpg"
+                            style="padding-left: 20px;">
+                        <img src="https://m.media-amazon.com/images/I/712jNg9VerL._AC_SY200_.jpg"
+                            style="padding-left: 10px;">
+                        <img src="https://m.media-amazon.com/images/I/71rN-IfVi0L._AC_SY200_.jpg"
+                            style="padding-left:10px;">
+                        <img src="https://m.media-amazon.com/images/I/61zvADDP-kL._AC_SY200_.jpg"
+                            style="padding-left: 10px;">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+     <div id="park">
+    <div class="container" style="padding-top: 40px;">
+        <div class="card" style="flex-direction: row;padding-top: 60px;">
+            <div class="col-md-6">
+                <img src="https://m.media-amazon.com/images/I/51sHgE4OspL._AC_SY200_.jpg" style="padding-left: 150px;">
+            </div>
+            <div class="col-md-6" style="margin-right: 40px;">
+                <h2>RIDE AND DRIVE Waterproof Motorcycle Ba...$6,899 <small style="color: blue;">Prime</small></h2>
+                <button type="button" style="background-color:orange;border-radius: 15px;">Shop Now</button>
+            </div>
+        </div>
+    </div>
+    </div>
+     
+    <div id="nick">
+    <div class="container-fluid" style="padding-top: 40px;">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div style="padding-left: 30px;padding-top: 20px;">
+                        <h4>Up to 55% off | Electronics & accessories from Amazon</h4>
+                        <img src="https://m.media-amazon.com/images/I/71YctMdZFwL._AC_SY170_.jpg" width="120px"
+                            style="padding-left: 10;">
+                        <img src="https://m.media-amazon.com/images/I/61JrwzdXQzL._AC_SY170_.jpg" width="120px"
+                            style="padding-left: 10px;">
+
+                        <img src="https://m.media-amazon.com/images/I/61KvuKXlc4L._AC_SY170_.jpg" width="120px"
+                            style="padding-left: 10px;padding-top: 20px;">
+                        <img src="https://m.media-amazon.com/images/I/61tvvx-IqLL._AC_SY170_.jpg" width="120px"
+                            style="padding-left: 10px;padding-top: 20px;">
+                        <p style="color: blue;" class="d5">See More</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div id="jiraya">
+                        <h4>Up to 60% off | Your next smart TV awaits, grab the off…Previous page</h4>
+                        <img src="https://m.media-amazon.com/images/I/51u4DAHvfCL._AC_SY195_.jpg" width="250px"
+                            style="padding-top: 20px;">
+                        <p style="padding-top: 20px;">OBAGE Essential-4 2.1 Home Theatre System 60 Watt with HDMI ARC,
+                            Digital Bass Treble…₹3,195.00M.R.P:₹6,000.00</p>
+                        <p style="color: blue;" class="d2">See More</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div style="padding-left: 30px;padding-top: 30px;padding-bottom: 20px;">
+                        <h4>Up to 50% off | International brands</h4>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/2025/WK_1/PC_CC_379X304_46._SY304_CB778301020_.jpg"
+                            width="300px" style="padding-top: 15px;">
+                        <p style="padding-top: 20px;color: blue;" class="d3">Seee More</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div style="padding-left: 25px;padding-top: 30px;padding-bottom: 20px;">
+                        <h4>Up to 60% Off | Best selling furniture from stores nearby</h4>
+                        <div style="padding-top: 20px;padding-bottom: 25px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_2._SY116_CB567468236_.jpg"
+                                width="150px" height="100px">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_3._SY116_CB567468236_.jpg"
+                                width="150px" height="100px" style="padding-left: 10px;">
+
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_4._SY116_CB567468236_.jpg"
+                                width="150px" height="100px" style="padding-top: 20px;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_1._SY116_CB567468236_.jpg"
+                                width="150px" height="100px" style="padding-top: 20px;padding-left: 10px;">
+                            <p style="padding-top: 30px;color: blue;" class="d6">See More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="cinna">
+    <div class="container-fluid" style="padding-top: 40px;">
+        <div class="row">
+            <div class="card">
+                <div class="col-md-12">
+                    <div style="padding-left: 30px;padding-top: 20px;">
+                        <h4 class="v2">Up to 60% off | Best offers on kitchen products | Amazon Launchpad <small
+                                style="color: blue;">See all</small></h4>
+                        <div style="padding-top: 30px;padding-bottom: 30px;">
+                            <img src="https://m.media-amazon.com/images/I/61-6yDuvBxL._AC_SY200_.jpg">
+                            <img src="https://m.media-amazon.com/images/I/51DNiKZ855L._AC_SY200_.jpg"
+                                style="padding-left: 10px;">
+                            <img src="https://m.media-amazon.com/images/I/61VwuY8hiyL._AC_SY200_.jpg"
+                                style="padding-left: 10px;">
+                            <img src="https://m.media-amazon.com/images/I/71ao5tgRCGL._AC_SY200_.jpg"
+                                style="padding-left: 10px;">
+                            <img src="https://m.media-amazon.com/images/I/51PH6t3t47L._AC_SY200_.jpg"
+                                style="padding-left: 10px;">
+                            <img src="https://m.media-amazon.com/images/I/81zSKCAWjbL._AC_SY200_.jpg"
+                                style="padding-left: 10px;">
+                            <img src="https://m.media-amazon.com/images/I/51a-nIZZH+L._AC_SY200_.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+     
+    <div id="rocky">
+    <div class="container-fluid" style="padding-top: 40px;">
+        <div class="row">
+            <div class="card" style="flex-direction: row;align-items: center;padding-left: 40px;padding-bottom: 80px;">
+                <div class="col-md-2">
+                    <h4 style="padding-top: 10px;padding-left: 30px;" class="d7">More items to consider <small
+                            style="color: blue;" >See More</small></h4>
+
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/51HEs916GZL._AC_UL165_SR165,165_.jpg">
+                    <p style="color:rgba(0, 55, 128, 0.941);"> Hubberholme Men's <br>Stretchable Slim Fit Jeans
+                        <br>- Casual Cotton Jeans for Men<br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg> 48<br><small style="background-color: red;">61% off</small><br>
+                        ₹600.00<br>
+                        Get it by Tuesday, November <br>25<br>
+                        FREE Delivery by Amazon<br>
+                        Only 1 left in stock.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/51HpW7uBDGL._AC_UL165_SR165,165_.jpg"
+                        width="200px" height="150px">
+                    <p style="color: rgba(0, 55, 128, 0.941);">Hubberholme Men Slim <br>Fit Casual Denim Fabric
+                        <br>Comfortable Stretchable <br>Jeans<br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>326<br><small style="background-color: red;">70% offer</small><br>714.00
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/51Fb7l5qzVL._AC_UL165_SR165,165_.jpg">
+                    <p style="color:rgba(0, 55, 128, 0.941)">Urbano Fashion Men Mid <br>Rise Slim Fit Washed
+                        <br>Jeans Stretchable<br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>3,650<br><small style="background-color: red;">90% offer</small><br>494.00
+                    </p>
+                </div>
+                <div class="col-md-2" style="padding-top: 60px;">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/61h3IXNHTEL._AC_UL165_SR165,165_.jpg">
+                    <p style="color:rgba(0, 55, 128, 0.941)">INKD Men's Slim Fit Jeans<br> - Mid-Rise | Cotton Blend
+                        <br>| Contrast Stitch <br>|
+                        Stretchable Fabric <br>| Classic 5 Pocket Styling<br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>970 <br><small style="background-color: red;">67% offer</small><br>689.00-729.00
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/61gQAVASvHL._AC_UL165_SR165,165_.jpg">
+                    <p style="color:rgba(0, 55, 128, 0.941)">Campus Sutra Men's Mid<br> Rise Slim Jeans<br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>69<br><small style="background-color: red;">55% offer</small><br>679.00-719.00
+                    </p>
+                </div>
+                <div class="col-md-2">
+
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/71SNKC4KfXL._AC_UL165_SR165,165_.jpg">
+                    <p style="color:rgba(0, 55, 128, 0.941)">Highlander Men's Tapered<br> Jeans<br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>6<br><small style="background-color: red;">80% offer</small><br>419.00
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="nithish">
+       <nav id="nabarnav">
+    <div class="container-fluid-m5" id="demo1">
+        <div class="card">
+            <hr>
+            <h4 style="padding-left: 550px;padding-top: 30px;">See personalized recommendations</h4>
+            <ul>
+                <li class="nav-item">
+            <a class="nav-link" href="amazon2.html">
+            <small><button type="button" id="hous" onclick="jankle()" style="background-color:orange;">sign
+                    in</button></small>
+                    </a>
+                    </li>
+                    </ul>
+            <p style="padding-left: 650px;" class="v1">New Customer?<small style="color:rgba(0, 55, 128, 0.941) ;" ><u>Start
+                        here.</u></small></p>
+            <hr>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container-fluid-m5">
+        <div class="card" style="background-color: steelblue;">
+            <h6 style="padding-left: 650px;">Back to top</h6>
+        </div>
+        <div class="card" style="background-color:rgba(0, 55, 128, 0.941);">
+            <small>
+                <b>
+                    <div class="row" style="color: white;padding-left: 250px;padding-top: 30px;" id="passport">
+                        <div class="col-md-2">
+                            <h6>Get to Know Us</h6>
+                            <p>About Amazon</p>
+                            <p>Careers</p>
+                            <p>Press Releases</p>
+                            <p>Amazon Science</p>
+                        </div>
+                        <div class="col-md-2">
+                            <h6>Connect with Us</h6>
+                            <p>Facebook</p>
+                            <p>Twitter</p>
+                            <p>Instagram</p>
+                        </div>
+                        <div class="col-md-2">
+                            <h6>Make Money with Us</h6>
+                            <p>Sell on Amazon</p>
+                            <p>Sell under Amazon<br> Accelerator</p>
+                            <p>Protect and Build Your Brand</p>
+                            <p>Amazon Global Selling</p>
+                            <p>Supply to Amazon</p>
+                            <p>Become an Affiliate</p>
+                            <p>Fulfilment by Amazon</p>
+                            <p>Advertise Your Products</p>
+                            <p>Amazon Pay on Merchants</p>
+                        </div>
+                        <div class="col-md-2">
+                            <h6>Let Us Help You</h6>
+                            <p>Your Account</p>
+                            <p>Returns Centre</p>
+                            <p>Recalls and Product Safety<br> Alerts</p>
+                            <p>100% Purchase Protection</p>
+                            <p>Amazon App Download</p>
+                            <p>Help</p>
+                        </div>
+                    </div>
+                </b>
+            </small>
+            <hr style="color: white;">
+            <div class="bapoon" style="color: white;padding-bottom: 200px;">
+                <h4 style="margin-left: 30px;padding-top: 25px;"><b>amazon</b></h4>
+                <div class="dropdown">
+                    <button class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                            <path
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                        </svg>English</button>
+                    <div class="dropdown-content">
+                        <a href="#">Change Language</a>
+                        <a href="#">English-IN</a>
+                        <a href="#">Tamil-IN</a>
+                        <a href="#">Hindi-IN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+            
+      <diV id="unick">
+         <div class="container-fluid-m5">
+        <div class="card" style="background-color: black;">
+            <div class="bison">
+        <div class="col-md-3">
+            <p><b>AbeBooks</b></p>
+            <small>Books,art</small>
+            <small>& collectibles</small>
+            <p style="padding-top: 10px;"><b>Shopbop</b></p>
+            <small>Designer</small>
+            <small>Fashion Brands</small>
+        </div>
+        <div class="col-md-3" style="padding-right: 40px;">
+            <p><b>Amazon Web Services</b></p>
+            <small>Scalable Cloud</small>
+            <small>Computing Services</small>
+            <p style="padding-top: 10px;"> <b>Amazon Business</b></p>
+            <small>Everything For</small>
+            <small>Your Business</small>
+        </div>
+        <div class="col-md-3">
+            <p><b>Audible</b></p>
+            <small>Download</small>
+            <small>Audio Books</small>
+            <p style="padding-top: 10px;"><b>Prime Now</b></p>
+            <small>2-Hour Delivery</small>
+            <small>on Everyday Items</small>
+        </div>
+        <div class="col-md-3">
+            <p><b>IMDb</b></p>
+            <small>Movies, TV</small>
+            <small>& Celebrities</small>
+            <p style="padding-top: 10px;"><b>Amazon Prime Music</b></p>
+            <small>100 million songs, ad-free</small><br>
+            <small>Over 15 million podcast episodes</small>
+        </div>
+        </div>
+          <hr>
+          <div class="don">
+          <p>Conditions of Use & Sale Privacy Notice Interest-Based Ads</p><br>
+          </div>
+          <div class="don2">
+            <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p> </div>
+        </div>
+        </div>
+        </diV>
+    <script src="scar.js"></script>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>

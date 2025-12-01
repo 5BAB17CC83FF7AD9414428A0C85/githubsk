@@ -1,0 +1,394 @@
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    border-radius: 2px;
+}
+
+#mango{
+  width: 50px;
+  height: 70px;
+  margin-top: 20px;
+}
+#popular{
+   background-color: white;
+   width: 50%;
+   height: 50px;
+   border-radius: 5px;
+   margin-right: 20px;
+   padding-right: 20px;
+   z-index: 2;
+   position: relative;
+}
+#mouse{
+  background-color: orange;
+  width: 70px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  border: none;
+  border-radius: 6px;
+  right: 10%;
+  transform: translate(-80%);
+  
+}
+#india{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+#usa:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 1px solid;
+}
+#m1:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 1px solid;
+}
+#m2:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 1px solid;
+}
+#m3:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 1px solid;
+}
+#m4{
+   display: flex;
+   flex-direction: row;
+}
+#j1:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+  
+}
+#j2:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+ 
+}
+#j3:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+  
+}
+#j4:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+ 
+}
+#t1:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+ 
+}
+#t2:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+  
+}
+#t3:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+  
+}
+#t4:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+}
+#t5:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+ 
+}
+#mobile.a:hover{
+   background-color: blue;
+}
+.kow{
+    background-color:rgba(0, 0, 0, 0.671);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;  
+    cursor: pointer;
+}
+#fanda{
+    padding-left: 40px;
+    padding-top: 30px;
+    bottom: 20px;
+}
+#jiraya{
+     padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 5x;
+}
+#hous{
+    margin-left: 620px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+#y3{
+   border: 2px solid;
+   
+}
+.bapoon{
+    display: flex;
+    flex-direction: row;
+    padding-left: 500px;
+    padding-top: 5px;
+}
+.dropbtn {
+  background-color:rgba(0, 55, 128, 0.941);
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 60px;
+  margin-top: 30px;
+
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: steelblue;
+}
+.bison{
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.don{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+.don2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.day:hover {
+  transform: scale(1.1);
+  border: 2px solid;
+}
+
+.jk{
+  display: flex;
+  flex-direction: row;
+  top: 150%;
+  left: 150%;
+  transform: translate(-0%,-180%);
+}
+.a1:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a2:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a3:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a4:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a5:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a6:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a7:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a8:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a9:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+
+}
+.a10:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.a11:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+.d1:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.d2:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.d3:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.a4:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.d5:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.d6:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.d7:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.v2:hover{
+   transform: scale(1.1);
+  cursor: pointer;
+}
+
+.v1:hover{
+     transform: scale(1.1);
+  cursor: pointer;
+}
+#passport:hover{
+    transform: scale(1.1);
+  cursor: pointer;
+}
+.bison:hover{
+  transform: scale(1.1);
+  cursor: pointer;  
+}
+.monkey{
+  top: 150%;
+  left: 150%;
+  transform: translate(-0%,-200%);
+}
+.g1{
+  padding-left: 20px;
+}
+.g2{
+  padding-left: 20px;
+}
+.g3{
+  padding-left: 20px;
+}
+.g4{
+  padding-left: 20px;
+}
+#tool{
+  top: 50%;
+  left: 150%;
+  bottom:50%;
+  transform: translate(-0%,-180%);
+}
+#Build{
+  top: 50%;
+  left: 150%;
+  bottom:50%;
+  transform: translate(-0%,-180%);
+}
+#free{
+  top: 50%;
+  left: 150%;
+  transform: translate(-0%,-130%);
+}
+#hyper{
+  top: 50%;
+  left: 150%;
+  transform: translate(-0%,-90%);
+}
+#command{
+  top: 50%;
+  left: 150%;
+  transform: translate(-0%,-130%);
+
+}
+#park{
+    top: 50%;
+  left: 150%;
+  transform: translate(-0%,-120%);
+}
+#nick{
+  top: 50%;
+  left: 150%;
+  transform: translate(-0%,-65%);
+}
+#cinna{
+  top: 50%;
+  left: 150%;
+  transform: translate(-0%,-80%);
+
+}
+#rocky{
+   top: 50%;
+  left: 150%;
+  transform: translate(-0%,-40%);
+
+}
+#nithish{
+  top: 50%;
+  left: 150%;
+  transform: translate(-0%,-30%);
+}
+#unick{
+   top: 50%;
+  left: 150%;
+  transform: translate(-0%,-0%);
+}
